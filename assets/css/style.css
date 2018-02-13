@@ -1,0 +1,53 @@
+#box-1 {
+height: 60px;
+width: 200px;
+background: rgb(206, 103, 6);
+color: white;
+text-align: center;
+padding: 5px;
+}
+
+#box-2 {
+    height: 340px;
+    width: 270px;
+    background: tan;
+    color: green;
+    padding: 5px;
+}
+
+#currentScore {
+    height: 70px;
+    width: 170px;
+    float: left;
+    background: green;
+    color: black;
+    padding: 5px;
+    
+}
+
+#winsLosses {
+    height: 70px;
+    width: 30;
+    background: rgba(4, 224, 231, 0.534);
+    float: left;
+    color: white;
+    padding: 5px;
+
+}
+
+#score {
+    height: 25px;
+    width: 170px;
+    background: rgb(3, 73, 58);
+    color: black; 
+    
+}
+
+#totalScore {
+    height: 70PX;
+    width: 170px;
+    background:  rgb(3, 73, 58);
+    color: white;
+    padding: 5px;
+
+}
