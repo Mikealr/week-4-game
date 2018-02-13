@@ -36,27 +36,3 @@ var computersRandomNumber = Math.floor(Math.random() * 80 + 35);
         $("#currentScore").html(Guess);
         results();
     });
-
-    // Results
-    function results() {
-        if (Guess === computersRandomNumber) {
-            wins++;
-            $("#wins").html(wins);
-            reset();
-        } else if (playerGuess >= computersRandomNumber) {
-            losses++;
-            $("#losses").html(losses);
-            reset();
-        }
-    }
-
-    function reset() {
-        computersRandomNumber = Math.floor(Math.random() * 80 + 35);
-        button1 = Math.floor(Math.random() * 20) + 1;
-        button2 = Math.floor(Math.random() * 20) + 2;
-        button3 = Math.floor(Math.random() * 20) + 3;
-        button4 = Math.floor(Math.random() * 20) + 4;
-        
-    }
-
-});
